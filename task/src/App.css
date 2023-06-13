@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.add-button {
+  margin-bottom: 20px;
+}
+
+.chat-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.message-area {
+  flex: 1;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.message-area p {
+  margin: 5px 0;
+}
+
+.self {
+  text-align: right;
+}
+
+.other {
+  text-align: left;
+}
+
+.input-area {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+textarea {
+  flex: 1;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.close-button {
+  background-color: #dc3545;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
